@@ -12,11 +12,6 @@
 </head>
 
 <body>
-    <ul class="nav nav-pills m-3 justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link bg-primary text-white " aria-current="page" href="{{ route('comics.create') }}"><i class="fa-solid fa-circle-plus mx-1"></i>ADD NEW COMIC</a>
-        </li>
-    </ul>
     
     @yield('content')
 </body>
